@@ -11,9 +11,9 @@ class guessingGame():
 		fileN = open("game.data", "r")
 		read_recursion.read_recursion(fileN, self.root)
 		fileN.close()
-		self.rootR = self.root
+	
 	def present(self):
-		
+		self.rootR = self.root	
 		while self.rootR.left is not None and self.rootR.right is not None:
 			usrinput = raw_input(self.rootR.getValue())
 			if usrinput == "yes" and self.rootR.right is not None:

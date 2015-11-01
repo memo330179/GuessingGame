@@ -16,9 +16,14 @@ yes
 Guess:
 Is it an anglerfish?
 
+Question:
+Is it an insect?
+no
+yes
 Guess:
-Is it a clownfish?
-
+is it a clownfish
+Guess:
+Is it a butterfly?
 Question:
 Is it small?
 
@@ -61,12 +66,15 @@ no
 yes
 Question:
 Does it have fur?
+
 no
 yes
 Guess:
 Is it a rhino?
+
 Guess:
 Is it a lion?
+
 Question:
 Is it a rodent?
 
