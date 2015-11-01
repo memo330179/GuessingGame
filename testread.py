@@ -1,3 +1,11 @@
+##################################################################
+#Name: testread.py
+#purpose: To test the read_recursion
+#
+#Author: Guillermo Ramos Macias
+#Attribution: read recursion was  written by Dr. Nakazawa
+##################################################
+
 from Tree import TreeNode
 import read_recursion
 gameTree = TreeNode()

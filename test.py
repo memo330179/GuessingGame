@@ -1,3 +1,11 @@
+#######################################
+#Name: Test.py
+#purpose: This tests to make sure the tree and the write function are working
+#Author: Guillermo
+#
+##########################################
+
+
 from Tree import TreeNode
 import write_recursion 
 sampleTree = TreeNode()
