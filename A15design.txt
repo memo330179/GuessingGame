@@ -1,0 +1,41 @@
+Creating tree:
+Start by initializing a static parent node and children node
+
+====================================================================================
+#Use a stack data structure with recursive call to init children
+
+def write(cNode):
+	#output cNode to file
+	if cNode.yes_branch=None and cNode.no_branch=None
+		return
+	write(cNode.yes_branch)
+	write(cNode.no_branch)
+
+
+
+
+Assuming that final guess is wrong.
+
+def addq(currentNode):
+	#ask question that should go there
+	#what is yes response?
+	#what is no response?
+	#add in currentnode?
+	currentNode.question=rawinput(What is supposed to be asked here)
+	y=rawinput()
+	n=rawinput()
+
+	#When you do this you are making the current node a parent
+	currentNode.yes_branch=Node(y)		#adds yes response
+	currentNode.no_branch=Node(n)		#adds no response
+
+
+=====================================================================================
+
+example: of creating a new guess(ideally would be a class)
+
+class Node:
+	__init__(self,theText):
+	self.question=theText			#The text is x value you asked before
+	self.yes_branch=None
+	self.no_branch=none
