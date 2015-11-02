@@ -21,6 +21,8 @@ def main():
 		if endR == 1:
 			print "Yay!"
 			play = raw_input("Would you like to play again?")
+		else:
+			break
 	if endR == 1: #ends game
 		print"See you later!"
 	elif endR == 0: #learn
