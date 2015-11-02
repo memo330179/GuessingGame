@@ -15,7 +15,7 @@ import read_recursion
 import write_recursion
 
 class guessingGame():
-		"""This class runs the game from opening a file to writing back into it"""
+	"""This class runs the game from opening a file to writing back into it"""
 	def __init__(self):
 		"""Initialize the class with one empty node"""
 		self.root = TreeNode()
